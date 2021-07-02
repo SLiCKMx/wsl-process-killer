@@ -1,5 +1,5 @@
 # wsl-process-killer
-A simple utility for killing running Windows processes from within WSL.
+A simple utility for killing running Windows processes from within WSL. Runs batch command `taskkill` with its `/F` and `/IM` parameters. 
 
 Usage:
 ```
