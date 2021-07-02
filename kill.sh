@@ -27,7 +27,6 @@ do
 	fi
 done
 
-
 pid_str=$(printf ", %s" "${pid_arr[@]}")
 pid_str=${pid_str:2}
 proc_name=${proc_name:1:-1}
